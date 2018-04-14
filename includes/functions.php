@@ -36,15 +36,21 @@ switch($page_name){
   <style>
   .mascot
   {
-  	right:0;
+  right:0;
 	top:65%;
 	display:block;
-	position:absolute;
-	height:180px;
-
-  
+	position:fixed;
+  z-index: 2;
+	height:110px;
   }
   
+  @media only screen and (min-width: 786px) {
+    .mascot{
+      top: 50%;
+      bottom: 0;
+      height:180px;
+    }
+  }
   </style>
   
  <img  src="img/mas.png" class="mascot"  />

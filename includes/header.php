@@ -1,10 +1,9 @@
-<link href="css/style.css" type="text/css" rel="stylesheet" media="all"/>
 <header class="zss-header pinnable-header zsg-layout-width layout-width_marginless" style="height:82px;">
    
    
     <nav role="navigation"  class="nav-top nav-top_full ">
     
-      <a href='index.php'><img src="image/cost_advatage_logo.gif" style="padding:4px; background:#fff; margin-top:20px; height:80px;" ></a>
+      <a href='index.php' class="logo-container"><img src="image/cost_advatage_logo.gif" style="padding:4px; background:#fff;" ></a>
       
      <a class="zsg-logo-menu za-track-event delay-enable" title="" accessKey="1" data-za-category="TopNav" data-za-action="" data-za-label="" aria-label="menu toggle button" role="button">
     
