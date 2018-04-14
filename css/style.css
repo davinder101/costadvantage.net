@@ -1,2 +1,14 @@
-.make_marrking{margin-bottom:5px;}
-.button_this{background:#8080ff;width:120px;color:#fff;}
+.logo-container{
+	width: 100%;
+	background: white;
+}
+
+.logo-container img {
+	width: 100%;
+}
+
+@media only screen and (min-width: 500px) {
+	.logo-container img{
+		width: auto;
+	}
+}

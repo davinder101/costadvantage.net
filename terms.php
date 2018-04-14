@@ -10,16 +10,7 @@ include_once('includes/functions.php');
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin" rel="stylesheet" type="text/css"/>
 <script>document.documentElement.className = document.documentElement.className.replace(/\bwf-loading\b/g, '');</script>
 
-<link href="http://www.zillowstatic.com/static-zsg/99e45c8/static-zsg/zsg/zsg-core.css" type="text/css" rel="stylesheet" media="all"/>
-<link href="http://www.zillowstatic.com/static-zsg/99e45c8/static-zsg/zsg/zsg-opt.css" type="text/css" rel="stylesheet" media="all"/>
-
-
-<link rel="stylesheet" media="all" href="http://www.zillowstatic.com/c/8927c76/lib?css/z-modules/header.css&amp;css/z-modules/header-wide.css&amp;css/z-modules/sub-nav-wide.css" type="text/css">
-</link>
-<link rel="stylesheet" media="all" href="http://www.zillowstatic.com/c/static-topnav/82b170d/lib?css/z-modules/top-nav.css&amp;css/z-modules/top-nav-hoverable.css&amp;css/z-modules/top-nav-wide.css" type="text/css">
-</link>
-<link rel="stylesheet" media="all" href="http://www.zillowstatic.com/c/static-homepage/2d39d98/lib?css/z-pages/home.css&amp;css/z-pages/home-desktop.css&amp;css/z-pages/home-desktop-wide.css" type="text/css">
-</link>
+<link rel="stylesheet" media="all" type="text/css" href="css/main.css"/>
 
 
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
