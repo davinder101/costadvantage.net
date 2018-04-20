@@ -15,7 +15,7 @@
 
 <!--[if gte IE 9]><link rel="shortcut icon" href="/static/images/ie9_favicon.ico" type="image/x-icon"/><![endif]-->
 </head>
-<body id="home" class="home-page hide-top-nav-gleam  tengage wide">
+<body id="contact" class="home-page hide-top-nav-gleam  tengage wide">
 <a name="top" id="top"></a>
 <div id="wrapper" class="main-wrapper">
   <div class="zsg-modal-mask"></div>
@@ -29,10 +29,10 @@
           </header>
           <section class="cms-content-section zsg-sm-hide">
             <div class="zsg-g">
-              <div class="zsg-lg-2-3 zsg-sm-1-1">
-               <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.buyinstagramfollowersreviews.net/">buy instagram followers cheap</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(28.67901948698886,77.17056905156255),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(28.67901948698886,77.17056905156255)});infowindow = new google.maps.InfoWindow({content:'<strong>Cost Advantage</strong><br>delhi india<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+              <div class="zsg-lg-2-3 zsg-sm-1-1 google-map-container">
+               <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:100%;'><div id='gmap_canvas' style='height:440px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.buyinstagramfollowersreviews.net/">buy instagram followers cheap</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(28.67901948698886,77.17056905156255),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(28.67901948698886,77.17056905156255)});infowindow = new google.maps.InfoWindow({content:'<strong>Cost Advantage</strong><br>delhi india<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
               </div>
-              <div class="zsg-lg-1-3 zsg-sm-1-1">
+              <div class="zsg-lg-1-3 zsg-sm-1-1 enquiry-container">
                 <header class="cms-content-section-hdr" style="padding:0px;margin:0px;">
                   <h3 class="cms-content-section-hdr-1">Quick Enquiry</h3>
                 </header>

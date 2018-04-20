@@ -12,3 +12,30 @@
 		width: auto;
 	}
 }
+
+.marquee {
+	background: #fff;
+}
+
+.zss-header {
+	border-bottom: none;
+}
+
+@media only screen and (max-width: 768px) {
+	#contact .google-map-container,
+	#contact .enquiry-container{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.zsg-sm-hide {
+		display: block;
+	}	
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+	.zsg-md-hide {
+		display: block;
+	}
+}
