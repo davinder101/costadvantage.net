@@ -37,10 +37,10 @@
                   <h3 class="cms-content-section-hdr-1">Quick Enquiry</h3>
                 </header>
                 <form action="action/contact_req.php" method="post">
-                        <input type='text' name="name" placeholder='Your Name*' required class='make_marrking'/>
-                        <input type='text' name="email" placeholder='Your Email*'  required class='make_marrking'/>
-                        <input type='text' name="phone" placeholder='Your Phone'  class='make_marrking'/>
-                        <textarea placeholder='Any Message' name="message"></textarea>
+                        <input type='text' name="name" placeholder='Your Name*' required class='make_marrking' required />
+                        <input type='text' name="email" placeholder='Your Email*'  required class='make_marrking' required />
+                        <input type='text' name="phone" placeholder='Your Phone'  class='make_marrking' required />
+                        <textarea placeholder='Any Message' name="message" required></textarea>
                         <input type='submit' name='sendquer' value='Send' class='button_this'>
                  </form>
                 <br/><b>Email on</b><br/>
