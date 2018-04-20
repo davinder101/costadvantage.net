@@ -51,9 +51,9 @@ pre,textarea{overflow:auto}
 .zsg-sm-2-3{width:66.6667%}
 .zsg-sm-3-4{width:75%}
 .zsg-sm-1,.zsg-sm-1-1{width:100%}
-.zsg-sm-hide{display:none!important}
+.zsg-sm-hide{display:none;}
 }
-@media screen and (min-width:481px) and (max-width:768px){.zsg-md-hide{display:none!important}
+@media screen and (min-width:481px) and (max-width:768px){.zsg-md-hide{display:none;}
 }
 @media screen and (min-width:769px){.zsg-lg-hide{display:none!important}
 }
