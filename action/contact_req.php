@@ -5,22 +5,21 @@ if( !empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['phone'])
 	$email=$_POST['email'];
 	$phone=$_POST['phone'];
 	$message=$_POST['message'];
-	
+
 	$to = "info@costadvantage.net, $email";
 	$subject = 'Contact US';
-	$message = "Hello Your message is received by us: <br> Name: $name <br>
-	<br> Email: $email <br>
-	<br> Phone: $phone <br>
-	<br> Message: $message <br>
-	You may expect a reply from us withing 24-48  hrs.<br><br>
-	Thank You<br>
-";
+	$message = "Hello Your message is received by us:" .
+	"\r\n" ."Name: $name " .
+	"\r\n" ."Email: $email " .
+	"\r\n" ."Phone: $phone " .
+	"\r\n" ."Message: $message " .
+	"\r\n" ."You may expect a reply from us withing 24-48  hrs." .
+	"\r\n" . "Thank You";
 $headers = 'From: info@costadvantage.net' . "\r\n" .
 	'Reply-To: info@costadvantage.net' . "\r\n" .
 	'X-Mailer: PHP/' . phpversion();
 
-mail($to, $subject, $message, $headers);
-
+$mail_log = mail($to, $subject, $message, $headers);
 header('location:../contactus.php?success');
 
 } else {
@@ -45,7 +44,7 @@ header('location:../contactus.php?success');
 //     'X-Mailer: PHP/' . phpversion();
 
 // mail($to, $subject, $message, $headers);
-    
+
 //     header('location:../contactus.php?success');
 // }
 
