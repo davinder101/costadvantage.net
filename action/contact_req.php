@@ -5,11 +5,11 @@ if( !empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['phone'])
 	$email=$_POST['email'];
 	$phone=$_POST['phone'];
 	$message=$_POST['message'];
-	
+
 	$to = "info@costadvantage.net, $email";
 	$subject = 'Contact US';
-	$message = "Hello Your message is received by us:" . 
-	"\r\n" ."Name: $name " . 
+	$message = "Hello Your message is received by us:" .
+	"\r\n" ."Name: $name " .
 	"\r\n" ."Email: $email " .
 	"\r\n" ."Phone: $phone " .
 	"\r\n" ."Message: $message " .
@@ -20,11 +20,7 @@ $headers = 'From: info@costadvantage.net' . "\r\n" .
 	'X-Mailer: PHP/' . phpversion();
 
 $mail_log = mail($to, $subject, $message, $headers);
-
-echo $message;
-die('1122');
-
-//header('location:../contactus.php?success');
+header('location:../contactus.php?success');
 
 } else {
 	error_log('nai chal raho');
@@ -48,7 +44,7 @@ die('1122');
 //     'X-Mailer: PHP/' . phpversion();
 
 // mail($to, $subject, $message, $headers);
-    
+
 //     header('location:../contactus.php?success');
 // }
 
